@@ -37,9 +37,7 @@ for model in BMW_MODELS:
                 break
 
             for container in containers:
-                TMP_CAR_DICT = CAR_DICT.copy()
                 TMP_AD_DICT = AD_DICT.copy()
-                TMP_EQ_DICT = EQ_DICT.copy()
                 TMP_SELLER_DICT = SELLER_DICT.copy()
 
                 try:
